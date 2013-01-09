@@ -17,6 +17,10 @@ public class CartClient {
 
 			List<String> books = cart.getContents();
 			System.out.println("Books: " + books);
+			
+			MyTimer timer = (MyTimer) context.lookup("timer");
+			System.out.println("Creating timer");
+			timer.createTimer(10000);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

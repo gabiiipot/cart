@@ -24,6 +24,9 @@
 					<generateClient>true</generateClient>
 					<!-- default, it excludes **/*Bean.class **/*CMP.class **/*Session.class 
 						**/package.html -->
+<!-- 					<clientIncludes> -->
+<!-- 						<clientInclude>com/gaby/**/**/TimerSession.class</clientInclude> -->
+<!-- 					</clientIncludes> -->
 				</configuration>
 			</plugin>
 		</plugins>
