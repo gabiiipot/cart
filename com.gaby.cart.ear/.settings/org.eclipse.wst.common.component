@@ -5,5 +5,8 @@
         <dependent-module archiveName="com.gaby.cart.service-0.0.1-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/com.gaby.cart.service/com.gaby.cart.service">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="com.gaby.cart.jaxrs-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/resource/com.gaby.cart.jaxrs/com.gaby.cart.jaxrs">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>

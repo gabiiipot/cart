@@ -8,6 +8,7 @@
   	<module>com.gaby.cart.service</module>
   	<module>com.gaby.cart.client</module>
   	<module>com.gaby.cart.ear</module>
+  	<module>com.gaby.cart.jaxrs</module>
   </modules>
   <dependencyManagement>
 		<dependencies>

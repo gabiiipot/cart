@@ -20,6 +20,11 @@
 							<groupId>com.gaby.cart</groupId>
 							<artifactId>com.gaby.cart.service</artifactId>
 						</ejbModule>
+						<webModule>
+							<groupId>com.gaby.cart</groupId>
+							<artifactId>com.gaby.cart.jaxrs</artifactId>
+							<contextRoot>/ejb-service</contextRoot>
+						</webModule>
 					</modules>
 				</configuration>
 			</plugin>
@@ -31,6 +36,12 @@
 			<artifactId>com.gaby.cart.service</artifactId>
 			<version>${project.version}</version>
 			<type>ejb</type>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>com.gaby.cart.jaxrs</artifactId>
+			<version>${project.version}</version>
+			<type>war</type>
 		</dependency>
 	</dependencies>
 </project>
